@@ -1,0 +1,17 @@
+
+.vedioTg{
+    width: 100% !important;
+    background-repeat: no-repeat;
+    /* height: 100vh !important;
+    width: 100vw !important; */
+}
+
+.todo-vertical-line{
+    content: "";
+    width: .35rem;
+    height: 100%;
+    background: #3d4043;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}

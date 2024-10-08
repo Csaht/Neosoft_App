@@ -1,0 +1,34 @@
+.header_ctrl {
+  background: yellow;
+  height: 70px;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header_signals {
+  background: blue;
+  height: 70px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* 
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+
+    .cviewtab .mat-tab-labels {
+      .mat-tab-label {
+        min-width: 95px !important;
+        padding: 15px;
+      }
+    }
+  
+  } */

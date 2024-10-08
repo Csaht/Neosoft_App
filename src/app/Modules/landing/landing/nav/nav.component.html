@@ -1,0 +1,38 @@
+<mat-drawer-container class="sidenav-container">
+  <!-- Sidenav -->
+  <mat-drawer #drawer class="sidenav " mode="over">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a routerLink="test-module/test" mat-list-item href="#">Home</a>
+      <a routerLink="test-module/test3" mat-list-item href="#">About</a>
+      <a mat-list-item href="#">Services</a>
+      <a mat-list-item href="#">Contact</a>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <!-- Main content -->
+  <mat-drawer-content>
+    <!-- Header -->
+    <mat-toolbar color="primary">
+      <!-- Menu button for mobile view -->
+      <button class="show-menu" mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Responsive Sidenav</span>
+      <span class="spacer"></span>
+      <div class="header-nav-link">
+        <button routerLink="test-module/test" mat-button>Home</button>
+        <button routerLink="test-module/test3" mat-button>About</button>
+        <button mat-button>Contact</button>
+      </div>
+    </mat-toolbar>
+
+    <!-- Main content goes here -->
+    <div class="content">
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<!-- <app-footer></app-footer> -->
