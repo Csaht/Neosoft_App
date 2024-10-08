@@ -1,3 +1,8 @@
+
+mat-toolbar{
+    background: transparent;
+    margin-bottom: -65px;
+}
 .sidenav-container {
     height: 100%;
   }
